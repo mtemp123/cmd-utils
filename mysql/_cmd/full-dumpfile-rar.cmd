@@ -1,0 +1,3 @@
+mysqldump --compress --quick --set-charset --set-charset --no-data --add-drop-database --triggers --routines --events --databases %1 > %1-structure-dumpfile-[%date%].sql
+mysqldump --compress --no-create-db --no-create-info %1 > %1-data-dumpfile-[%date%].sql
+rar a -m3 -mt4 -mdG -ri1 -df -ep -agYYYY.MM.DD.HHMM "%1-data-dumpfile..rar" "%1-data-dumpfile-[%date%].sql" "%1-structure-dumpfile-[%date%].sql"

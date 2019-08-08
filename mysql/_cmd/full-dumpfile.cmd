@@ -1,0 +1,2 @@
+mysqldump --compress --quick --set-charset --set-charset --no-data --add-drop-database --triggers --routines --events --databases %1 > %1-structure-dumpfile.sql
+mysqldump --compress --no-create-db --no-create-info %1 > %1-data-dumpfile.sql

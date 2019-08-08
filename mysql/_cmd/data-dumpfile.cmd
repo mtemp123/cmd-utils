@@ -1,0 +1,1 @@
+mysqldump --compress --no-create-db --no-create-info %1 > %1-data-dumpfile.sql
