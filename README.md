@@ -3,7 +3,9 @@ Prepare command scripts for the system administrator
 
 ## MySQL backup
 
+```bash
   create-dump databasename
+```
 
 Creates a dump database **databasename** in the current directory
 

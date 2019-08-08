@@ -3,7 +3,9 @@
 
 ## Резервное копирование MySQL
 
+```bash
   create-dump databasename
+```
   
 Создает в текущей директории дамп базы **databasename**.
 
